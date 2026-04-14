@@ -1,5 +1,6 @@
-#Versión de Python (No sé como)
-
+#Versión de Python 
+python --version
+Python 3.14.3
 
 #Operaciones con 3 y 4
 print(3 + 4)
