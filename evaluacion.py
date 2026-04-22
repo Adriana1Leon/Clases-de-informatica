@@ -39,3 +39,18 @@ print(frase.replace("Tecnología", "Programación"))
 6. Divida la frase en palabras usando split().
 palabras = frase.split()
 """
+# ===== PARTE C =====
+# Programa integrador
+name= input("ingrese su nombre: ")
+apellido= input("ingrese su apellido: ")
+pais= input("ingrese su país: ")
+ancho= input("ingrese el ancho de la pared: ")
+alto= input("ingrese el alto de la pared: ")
+precio_m= input("ingrese el precio por metro cuadrado: ")
+area= ancho * alto
+costo_total_e= area * precio_m
+#2
+nombre_completo= name + " " + apellido
+
+
+
