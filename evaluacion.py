@@ -57,3 +57,8 @@ print(f"Nombre: {nombre_completo} \n País: {pais} \n Área: {area} \n Costo {co
 print("País: ", pais)
 print("El área es: ", area)
 print("el costo total es: ", costo_total_e)
+
+print(f"Nombre completo en mayúsculas es: {nombre_completo.upper()}")
+print(f"Longitud del nombre completo es: {len(nombre_completo)}")
+print(f"¿Está presente la letra 'a' en el nombre completo? { 'a' in nombre_completo }")
+print(f"¿El costo total es mayor que 100 dólares? {costo_total > 100}")
