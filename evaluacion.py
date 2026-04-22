@@ -51,6 +51,9 @@ area= ancho * alto
 costo_total_e= area * precio_m
 #2
 nombre_completo= name + " " + apellido
+#3
 
-
-
+print(f"Nombre: {nombre_completo} \n País: {pais} \n Área: {area} \n Costo {costo_total_e})
+print("País: ", pais)
+print("El área es: ", area)
+print("el costo total es: ", costo_total_e)
