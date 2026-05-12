@@ -41,3 +41,31 @@ suma = 0
 for nota in notas:
     suma = suma + nota
 promedio= suma/len(notas)
+print(promedio)
+
+#Otra forma de hacer el ejemplo
+notas=[8,7,9,10,6]
+suma = 0
+cont=0
+for nota in notas:
+    cont += 1
+    suma = suma + nota
+promedio= suma/cont
+print(f"El promedio es: {promedio}")
+
+#Ejercicio2
+language= "Phyton"
+for in letter in language:
+    print(letter)
+
+#Ejercicio pro
+palabra = input("ingrese una palabra: ")
+vocales = 0 
+cons= 0
+for letra in palabra:
+    if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra=="u"
+    vocales = vocales + 1
+    print(f"hay {vocales} vocales")
+    cons= len(palabra - vocales)
+    print (f"hay {cons} consonantes")
+    

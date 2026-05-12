@@ -1,7 +1,14 @@
-#Ejemplo
+#Ejercicio pro
+palabra = input("ingrese una palabra: ").lower()
+vocales = 0 
+cons= 0
+for letra in palabra:
+    if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra=="u":
+        vocales += 1
 
-notas=[8,7,9,10,6]
-suma = 0
-for nota in notas:
-    suma = suma + nota
-promedio= suma/len(notas)
+        total= (len(palabra))
+        cons= total-vocales
+print (f"hay {cons} consonantes")
+print(f"hay {vocales} vocales")
+print (f"hay {total} letras")
+    
