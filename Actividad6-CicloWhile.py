@@ -59,13 +59,29 @@ for in letter in language:
     print(letter)
 
 #Ejercicio pro
-palabra = input("ingrese una palabra: ")
+palabra = input("ingrese una palabra: ").lower()
 vocales = 0 
 cons= 0
 for letra in palabra:
-    if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra=="u"
-    vocales = vocales + 1
-    print(f"hay {vocales} vocales")
-    cons= len(palabra - vocales)
-    print (f"hay {cons} consonantes")
-    
+    if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra=="u":
+        vocales += 1
+        total= (len(palabra))
+        cons= total-vocales
+print (f"hay {cons} consonantes")
+print(f"hay {vocales} vocales")
+print (f"hay {total} letras")
+
+#For en un Set
+it_companies= {"Facebook", "Google", "Apple", "Amazon", "Facebook"}
+for company in it_companies:
+    print (company)
+
+#break en for
+numbers= [1,2,3,6,7,1]
+number = int(input ("Ingrese un número: "))
+for gay in numbers:
+    if gay == number:
+        print("Número encontrado")
+        break
+else:
+    print("Numero no encontrado")
