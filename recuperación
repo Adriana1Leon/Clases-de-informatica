@@ -1,0 +1,55 @@
+# ===== PARTE A =====
+"""Respuesta 1:
+a) nombre=str
+edad=int
+promedio=float
+cursos=list
+b) Mostraría los tipos de todas las variables y la longitud de la variable "nombre".
+c) La función "len(nombre)" se encarga de mostrar el número de caracteres que tiene la variable.
+
+Respuesta 2:
+a)La función "print()" sirve para mostrar información en pantalla, mientras que input() sirve para pedirle
+datos al usuario y permitir que escriba una respuesta.
+b) Un dato ingresado con input() puede dar error en un cálculo porque input() siempre devuelve
+un dato de tipo str, es decir, texto. Por eso, si se quiere usar en operaciones matemáticas,
+se debe convertir primero a int o float.
+c) El operador / se usa para dividir números, // se usa para dar el resultado de una división pero
+solo usando números enteros y por último, % te indica si la divisón va a ser entera o va a tener
+decimales, dando el residuo de la davisión.
+d) Escribe una instrucción que permita comprobar la versión de Python que se está usando.
+#python --version
+#Python 3.14.3
+También se puede escribir en la terminal:
+python --version
+e) 
+"""
+# ===== PARTE B =====
+# Código corregido
+ancho = float(input("Ingrese el ancho del terreno: "))
+largo = float(input("Ingrese el largo del terreno: "))
+precio = float(input("Ingrese el precio por metro cuadrado: "))
+area = ancho * largo
+costo = area * precio
+print(f"Área total: {area}")
+print(f"Costo estimado: {costo}")
+"""
+a) No declara que tipos de datos son las variables si son str, float, etc. 
+b) Porque de ahí el programa ya va a saber con qué tipo de datos va a trabajar. 
+"""
+# Construcción breve
+1. Cree la variable frase con el texto "Tecnología para todos".
+frase = "Tecnología para todos"
+2. Muestre la frase en mayúsculas. 
+print(frase.upper())
+3. Muestre la cantidad de caracteres de la frase. 
+print(len(frase))
+4. Verifique si la palabra "Python" está dentro de la frase. 
+print("Python" in frase)
+5. Reemplace "Tecnología" por "Programación". 
+print(frase.replace("Tecnología", "Programación"))
+6. Divida la frase en palabras usando split(). 
+print(frase.split())
+
+# ===== PARTE C =====
+# Programa integrador
+
