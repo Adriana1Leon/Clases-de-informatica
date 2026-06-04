@@ -4,7 +4,11 @@ a) nombre=str
 edad=int
 promedio=float
 cursos=list
-b) Mostraría los tipos de todas las variables y la longitud de la variable "nombre".
+b) 
+<class 'str'>
+<class 'int'>
+<class 'float'>
+<class 'list'>
 c) La función "len(nombre)" se encarga de mostrar el número de caracteres que tiene la variable.
 
 Respuesta 2:
