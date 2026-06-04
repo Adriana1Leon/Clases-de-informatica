@@ -21,7 +21,8 @@ d) Escribe una instrucción que permita comprobar la versión de Python que se e
 #Python 3.14.3
 También se puede escribir en la terminal:
 python --version
-e) 
+e) import keyword
+print(keyword.kwlist)
 """
 # ===== PARTE B =====
 # Código corregido
@@ -51,5 +52,23 @@ print(frase.replace("Tecnología", "Programación"))
 print(frase.split())
 
 # ===== PARTE C =====
-# Programa integrador
+
+nombre = input("Ingrese su nombre: ")
+apellido = input("Ingrese su apellido: ")
+pais = input("Ingrese su país: ")
+ancho = float(input("Ingrese el ancho de la pared: "))
+alto = float(input("Ingrese el alto de la pared: "))
+precio_m= float(input("Ingrese el precio por metro cuadrado: "))
+area = ancho * alto
+costo_total_e= area * precio_m
+nombre_completo = nombre + " " + apellido
+print(f"Nombre: {nombre_completo} \n País: {pais} \n Área: {area} \n Costo {costo_total_e}")
+print("País: ", pais)
+print("El área es: ", area)
+print("el costo total es: ", costo_total_e)
+ 
+print(f"Nombre completo en mayúsculas: {nombre_completo.upper()}")
+print(f"Longitud del nombre completo: {len(nombre_completo)}")
+print(f"¿Está presente la letra 'a' en el nombre completo? {'a' in nombre_completo.lower()}")
+print(f"¿El costo total es mayor que 100 dólares? {costo_total_e > 100}")# Programa integrador
 
