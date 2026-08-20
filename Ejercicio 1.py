@@ -1,8 +1,9 @@
 #Versión de Python
-#python --version
-#Python 3.14.3
+import sys
+print("Versión de Python:", sys.version)
 
 #Operaciones con 3 y 4
+
 print(3 + 4)
 print(3 - 4)
 print(3 * 4)
@@ -12,16 +13,21 @@ print(3 ** 4)
 print( 3 // 4)
 
 #cadenas interactivas
-print("Adriana")
-print("Leon")
-print("Ecuador")
-print("Estoy disfrutando de 30 días de Python")
+nombre = "Adriana"
+apellido = "Leon"
+pais = "Ecuador"
+frase = "Estoy disfrutando de 30 días de Python"
 
+print("\nCadenas:")
+print(nombre)
+print(apellido)
+print(pais)
+print(frase)
 #Tipos de datos
+print("\nTipos de datos:")
 print(type(10))
 print(type(9.8))
 print(type(3.14))
 print(type(['Asabeneh', 'Python', 'Finland']))
-print(type("Leon"))
-print(type("Ecuador"))
-
+print(type(apellido))
+print(type(pais))
