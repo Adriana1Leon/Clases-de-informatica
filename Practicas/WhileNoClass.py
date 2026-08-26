@@ -1,4 +1,3 @@
-
 #While Normal (Con condición)
 
 answer= ""
