@@ -18,7 +18,7 @@ else:
             break
         else:
             promedio += notas
-    if promedio >0:
+    else:
         promedio_final= promedio/3
         if promedio_final >= 9:
             print("Excelente.")
@@ -28,10 +28,8 @@ else:
                 print("Debe rendir recuperación")
         else:
                 print("Reprobado")
-        print(f"Su promedio es: {promedio_final:.2f}")
-    else: 
-        print("Vuelvalo a intentar")"""
-    
+        print(f"Su promedio es: {promedio_final:.2f}")"""
+
 
 #FORMA CHAT (Más corta)
 promedio = 0
@@ -66,3 +64,4 @@ else:
             print("Reprobado")
 
         print(f"Su promedio es: {promedio_final:.2f}")
+
